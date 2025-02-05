@@ -5,8 +5,12 @@ This project structures the TransferMarket dataset using a **star schema** and e
 
 ## **Data Modeling**  
 The dataset is designed around two key business processes:  
-- **Player Appearances:** Tracks players in games with dimensions like player, game, competition, and club.  
-- **Player Transfers:** Records player transfers between clubs, linking players and teams.  
+- **Player Appearances:** Tracks players in games with dimensions like player, game, competition, and club.
+  ![image](https://github.com/user-attachments/assets/2ea10bea-532d-4068-86eb-61cd0b92f15d)
+
+- **Player Transfers:** Records player transfers between clubs, linking players and teams.
+  ![image](https://github.com/user-attachments/assets/0d8b78c8-d634-467c-b977-ea759ed79ff1)
+
 
 Python-based transformations were applied to align the data with the star schema, and results were stored as **CSV files** before format conversion.  
 
