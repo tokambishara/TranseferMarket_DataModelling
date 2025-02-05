@@ -15,8 +15,8 @@ The dataset is designed around two key business processes:
 Python-based transformations were applied to align the data with the star schema, and results were stored as **CSV files** before format conversion.  
 
 ## **Format Conversion & Storage**  
-- **Parquet:** Converted using `pyarrow` with **Snappy, Gzip, and Brotli** compression.  
-- **Avro:** Converted using `fastavro` with **Snappy, Deflate, and Zstandard** compression.  
+- **Parquet:** Converted using `pyarrow` library.
+- **Avro:** Converted using `fastavro` library. 
 - **HDFS Deployment:** All formats were uploaded to an **HDFS cluster** using **Docker & Python’s hdfs library** for benchmarking.  
 
 ## **Performance Comparison**  
