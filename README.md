@@ -1,4 +1,4 @@
-# **Transfer Market Data Modeling**  
+# **Transfer Market_Data Modeling**  
 
 ## **Overview**  
 This project structures the TransferMarket dataset using a **star schema** and evaluates different **data storage formats** (CSV, Parquet, Avro) in terms of **compression, read/write performance, and storage efficiency** on **HDFS**.  
